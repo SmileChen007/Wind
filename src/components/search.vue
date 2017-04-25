@@ -8,7 +8,18 @@
       <ul id="books">
         <li v-for="book in books">
           <div id="item">
-            <p>{{ book.name }}</p>
+            <div id="left">
+              <div id="top">
+                <label><span id="book_title">书籍:</span> {{book.novel_name}}</label>
+                <label><span id="book_title">作者:</span> {{ book.novel_author }}</label>
+              </div>
+              <div id="bottom">
+                <label><span id="book_title">简介:</span> {{book.novel_details}}</label>
+              </div>
+            </div>
+            <div id="right">
+
+            </div>
           </div>
         </li>
       </ul>

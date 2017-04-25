@@ -71,5 +71,16 @@ body {
   text-align: center;
   width: 626px;
   margin: 0 auto;
-  border: 1px solid red;
+  margin-top: 10px;
+}
+#left{
+  text-align: left;
+}
+#bottom{
+  height: 60px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+#book_title{
+  font-weight: bolder;
 }
