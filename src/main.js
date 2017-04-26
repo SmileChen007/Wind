@@ -4,8 +4,8 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import axios from 'axios'
-axios.defaults.baseURL = 'http://127.0.0.1:8888'
-axios.defaults.timeout = 5000
+axios.defaults.baseURL = 'http://www.coreice.org/'
+axios.defaults.timeout = 7000
 // axios.defaults.headers.common['Authorization'] = "the_wind";
 // axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
 Vue.prototype.$http = axios
